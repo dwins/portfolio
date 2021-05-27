@@ -1,0 +1,4 @@
+{{ $style := resources.Get "main.scss" | resources.ToCSS }}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{if .Title}}{{.Title}} - {{end}}{{.Site.Title}}</title>
+<link rel="stylesheet" href="{{$style.Permalink}}"></link>

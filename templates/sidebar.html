@@ -1,0 +1,22 @@
+<h1>{{config.title}}</h1>
+<em>{{config.description}}</em>
+
+{% set index = get_section(path="_index.md") %}
+{% if index.subsections | length %}
+<h2><a href="{{index.path}}">About me</a></h2>
+<ul>
+    {% for path in index.subsections %}
+    {% set section = get_section(path=path) %}
+    <li><a href="{{section.path}}">{{section.title}}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% if config.extra.links %}
+<h2>Find me on other sites</h2>
+<ul>
+    {% for link in config.extra.links %}
+    <li><a href="{{link.url}}">{{link.label}}</a></li>
+    {% endfor %}
+</ul>
+{%endif%}

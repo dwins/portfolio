@@ -1,0 +1,19 @@
+<h1>{{.Site.Title}}</h1>
+<em>{{.Site.Params.Description}}</em>
+
+<div class="navigation">
+
+    <h2><a href="{{.Site.Home.Permalink}}">About Me</a></h2>
+    {{ range $page := where .Site.RegularPages "Type" "portfolio"}}
+    <ul>
+        <li><a href="{{$page.Permalink}}">{{$page.LinkTitle}}</a></li>
+    </ul>
+    {{ end }}
+
+    <h2>Find me on other sites</h2>
+    {{ range .Site.Params.ExternalLinks }}
+    <ul>
+        <li>{{if .href}}<a href="{{.href}}">{{.label}}</a>{{else}}{{.label}}{{end}}</li>
+    </ul>
+    {{ end }}
+</div>

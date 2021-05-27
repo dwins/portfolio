@@ -1,0 +1,8 @@
+baseURL = "https://dwins.xyz/"
+languageCode = "en-us"
+title = "David Winslow"
+[params]
+Description = "Solving problems with computers"
+ExternalLinks = [
+    { label = 'Github', href = 'https://github.com/dwins' },
+]
