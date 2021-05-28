@@ -1,4 +1,4 @@
-{{ $style := resources.Get "main.scss" | resources.ToCSS }}
+{{ $style := resources.Get "main.scss" | resources.ToCSS | fingerprint }}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{if .Title}}{{.Title}} - {{end}}{{.Site.Title}}</title>
-<link rel="stylesheet" href="{{$style.Permalink}}"></link>
+<link rel="stylesheet" href="{{$style.Permalink}}" integrity="{{$style.Data.Integrity}}"></link>
