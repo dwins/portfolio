@@ -7,6 +7,6 @@ David Winslow is a full-stack software engineer with experience in engaging open
 
 ## Currently working on
 
-* [Google Drive](https://drive.google.com/)
+* [Google Drive](https://google.com/drive/)
 
 For more information about this and previous work please see [my resume]({{<ref "/resume/_index.md">}}).

@@ -24,7 +24,7 @@ title = "Resume"
 > Outreach program pairing teams of undergraduate students with Google engineers to work on a semester-long project to build work experience and interview skills. *[Android]*
 
 - Met with the team biweekly to evaluate progress, identify roadblocks and facilitate solution planning, and help with interpersonal coordination issues.
-- Held office hours for individual advising.
+- Provided individual advising through email and online office hours.
 
 ## Radiant Blue, Software Engineer (2016)
 
@@ -66,7 +66,7 @@ title = "Resume"
 > Open-source Django app for building geospatial data portals, supporting publishing and search to make data products available for visualization and download.
 *[Python, Django, Javascript, HTML, CSS, Java]*
 
-- Managed our team, set technical priorities based on internal resourcing and client needs, met with clients.
+- Managed the team, set technical priorities based on internal resourcing and client needs, met with clients.
 - Coordinated with other internal teams on feature development to support our application.
 - Supported open-source participation (IRC, mailing list, periodic physical conventions.)
 Facilitated contributions by maintaining build scripts, responding to bug reports, reviewing code.
@@ -87,7 +87,7 @@ Facilitated contributions by maintaining build scripts, responding to bug report
 ### Teaching Assistant
 
 - Acted as project group mentor by helping with planning, scoping, time management.
-- Held office hours to clarify assignments, reinforce lecture material, interpret compiler error messages.
+- Clarified assignments, reinforced lecture materials, troubleshot technology via office hours.
 - Evaluated code quality against rubrics, used hidden unit test suites.
 
 ### Software development
