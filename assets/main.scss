@@ -24,6 +24,13 @@ a {
     }
 }
 
+blockquote {
+    font-style: italic;
+    background: rgba(230, 250, 230, .95);
+    border: 1px solid grey;
+    padding-left: 1em;
+}
+
 img {
     width: 80%;
     display: block;

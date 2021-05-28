@@ -4,7 +4,9 @@ title = "Rocketbooth"
 
 # Rocketbooth
 
-For my wedding I made a self-service photobooth out of a Raspberry Pi and some off-the-shelf peripherals.
+> Self-service photobooth based on Raspberry Pi and off-the-shelf peripherals.
+
+For my wedding reception I wanted a photobooth and chose to build my own instead of renting.
 It was very successful and I found friends and family asking me to run a photobooth at other events afterwards.
 The code is available on Github at [dwins/rocketbooth](https://github.com/dwins/rocketbooth).
 
