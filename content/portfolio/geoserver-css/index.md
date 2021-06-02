@@ -1,14 +1,14 @@
 +++
 title = "GeoServer CSS"
+overview = "Data-driven map rendering made accessible to web developers."
+weight = 1
 +++
-
-# GeoServer CSS
-
-> Data-driven map rendering made accessible to web developers
 
 I designed and implemented an adaptation of the CSS browser standard for geospatial data.
 While other projects exploring this idea exist (eg. [Cascadenik](https://github.com/mapnik/Cascadenik), [CartoCSS](https://carto.com/developers/styling/cartocss/)), mine integrated with GeoTools, making it a convenient option for operators of the GeoServer map tile server.
 I further encouraged adoption by building a UI for GeoServer with live-updating preview as styles are edited and engaging with the community via online forums (IRC, mailing list) and conference presentations.
+
+<!--more-->
 
 ![Editing the style for a map of US census data](editor.png)
 

@@ -1,12 +1,13 @@
 +++
 title = "US Broadband Mapping"
+overview = "Evaluating broadband speeds reported by service providers against real-world measurements."
+weight = 2
 +++
-# US Broadband Mapping
-
-> Evaluating broadband speeds reported by service providers against real-world measurements
 
 I volunteered with the Open Technology Institute to support an intern project exploring the relationship between the Federal Communication Commission's broadband map and the internet test data collected and managed by OTI's Internet Measurement Lab.  The broad goal of the project was to evaluate how well the user-volunteered data from the Measurement Lab supported providers' claims about service offerings in the FCC data.
 The investigation was fully owned by the intern, and my role in the project was supporting the web deployment of an interactive map of results in a way that the OTI operations team would be able to maintain more easily going forward.
+
+<!--more-->
 
 ![The published map comparing FCC service provider data with user-measured performance data from Measurement Lab](usbbmap-screencapture.png)
 

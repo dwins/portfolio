@@ -6,3 +6,4 @@ Description = "Solving problems with computers"
 ExternalLinks = [
     { label = 'Github', href = 'https://github.com/dwins' },
 ]
+SidebarListLimit = 3

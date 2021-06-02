@@ -1,15 +1,15 @@
 +++
 title = "Unlocked Unofficial"
+overview = "Digital tabletop for puzzle card games."
+weight = 5
 +++
-
-# Unlocked Unofficial
-
-> Digital tabletop for puzzle card games
 
 During the global lockdown in response to the COVID-19 pandemic, I found myself playing more casual multiplayer games online.
 While there are many options out there for playing tabletop games online, I'm not aware of a solution that would work for the Unlock! series of games.
 These games are distributed as a deck of cards, but are played as puzzles relying on a smartphone app and the players' ability to flip and rotate the cards physically.
 I created a web app to allow friends to share a virtual tabletop with all players able to move cards and see positions update in real time.
+
+<!--more-->
 
 ![Initial state for the Training scenario](unlocked-unofficial.png)
 

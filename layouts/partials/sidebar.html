@@ -2,13 +2,15 @@
 <em>{{.Site.Params.Description}}</em>
 
 <div class="navigation">
-
     <h2><a href="{{.Site.Home.Permalink}}">About Me</a></h2>
-    {{ range $page := where .Site.RegularPages "Type" "portfolio"}}
+    {{$projects := .GetPage "/portfolio/_index.md"}}
+    <h2><a href="{{$projects.Permalink}}">{{$projects.LinkTitle}}</a></h2>
     <ul>
+    {{ range $page := first 3 (where .Site.RegularPages.ByWeight "Type" "portfolio")}}
         <li><a href="{{$page.Permalink}}">{{$page.LinkTitle}}</a></li>
-    </ul>
     {{ end }}
+    <li><a href="{{(.GetPage "/portfolio/_index.md").Permalink}}">... All projects</a></li>
+    </ul>
 
     <h2>Find me on other sites</h2>
     {{ range .Site.Params.ExternalLinks }}
