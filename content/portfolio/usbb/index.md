@@ -17,6 +17,6 @@ The primary challenges to production support were the use of the R programming l
 
 [The United States of Broadband Map](https://www.newamerica.org/oti/reports/united-states-broadband-map/the-united-states-of-broadband-map/)
 
-[opentechinstitute/UnitedStatesofBroadband on Github](https://github.com/opentechinstitute/UnitedStatesofBroadband)
+[opentechinstitute/UnitedStatesofBroadband](https://github.com/opentechinstitute/UnitedStatesofBroadband) on Github
 
-[opentechinstitute/USBB on Github](https://github.com/opentechinstitute/USBB)
+[opentechinstitute/USBB](https://github.com/opentechinstitute/USBB) on Github

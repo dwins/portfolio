@@ -24,6 +24,6 @@ Along with the software artifacts mentioned above, I provided OTI staff with doc
 ## References
 [More Than the Beginning of a Beautiful Friendship](https://context.newamerica.org/more-than-the-beginning-of-a-beautiful-friendship-12a1094fb30d)
 
-[m-lab/piecewise on Github](https://github.com/m-lab/piecewise)
+[m-lab/piecewise](https://github.com/m-lab/piecewise) on Github
 
-[m-lab/piecewise-saas on Github](https://github.com/m-lab/piecewise-saas)
+[m-lab/piecewise-saas](https://github.com/m-lab/piecewise-saas) on Github
