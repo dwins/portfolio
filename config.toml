@@ -1,9 +1,13 @@
 baseURL = "https://dwins.xyz/"
 languageCode = "en-us"
 title = "David Winslow"
+
 [params]
 Description = "Solving problems with computers."
-ExternalLinks = [
-    { label = 'Github', href = 'https://github.com/dwins' },
-]
 SidebarListLimit = 3
+
+[[params.ExternalLinks]]
+    label = "Github"
+    href = "https://github.com/dwins"
+
+[taxonomies]
